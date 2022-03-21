@@ -13,7 +13,7 @@ use Symfony\Contracts\HttpClient\ResponseStreamInterface;
 /**
  * Класс http клиента сервиса комментариев.
  */
-class CommentHttpClient
+final class CommentHttpClient
 {
     /**
      * @param HttpClientInterface $httpClient http клиент.
